@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - 
- * * return: The program needs to end in 0
+ * main - first entry
+ * Return: program need to end in 0
  */
 
-{int main(void)
-	puts("\"Programming is like building a multilingual puzzle);
-	return(0)
-}
+int main(void)
+{
+	pits("\"Programing is like building a multilingual puzzle")
+	return (0)
