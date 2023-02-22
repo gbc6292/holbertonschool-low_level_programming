@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *  main - Printing comb
- *  Return - Always en in 0
+ *  main - Printing Comb of numbers
+ *  Return: Always end in 0
  *
  */
 
