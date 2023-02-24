@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * Main - Printing the word _putchar
- * Return: Return in the function putchar
+ * main - Printing putchar
+ * Return: Always end in 0
  *
  */
 
-int main (void)
+int main(void)
 {
 	_putchar('p');
 	_putchar('u');
@@ -14,6 +14,6 @@ int main (void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n);
+	_putchar('\n');
 	return (0);
 }
