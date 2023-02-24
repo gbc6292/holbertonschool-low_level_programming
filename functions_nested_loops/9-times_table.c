@@ -18,7 +18,7 @@ void times_table(void)
 	t = e % 10;
 	o = (e - t) / 10;
 	_putchar(44);
-	_putchar(46);
+	_putchar(32);
 	_putchar(o + '0');
 	_putchar(t + '0');
 	}
@@ -27,8 +27,8 @@ void times_table(void)
 	if (r != 0)
 	{
 	_putchar(44);
-	_putchar(46);
-	_putchar(46);
+	_putchar(32);
+	_putchar(32);
 	}
 	_putchar(e + '0');
 	}
