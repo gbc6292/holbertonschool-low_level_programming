@@ -10,7 +10,7 @@ clean:
 	$(RM) ${SCR}
 
 oclean: 
-	$(RM) ${OBJ}
+	$(RM) main.o school.o
 
 fclean: 
 	find -type f -not \(-name '$(NAME)'\) -delete
