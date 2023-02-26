@@ -2,14 +2,18 @@ CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm -v !("$(NAME)")
+RM = rm
 
 all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
-clean: $(RM)
+clean:
+	$(RM) *.c
 
-oclean: $(RM)
+oclean: 
+	$(RM) *.o
 
-fclean: $(RM)
+fclean: 
+	find -type f -not \(-name '$(NAME)'\) -delete
+
 
 re:
