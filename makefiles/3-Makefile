@@ -2,7 +2,7 @@ CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm
+RM = rm -v !("${NAME}")
 
 all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
@@ -10,7 +10,7 @@ clean:
 
 oclean:
 
-fclean:
+fclean: ${RM}
 
 re:
 
