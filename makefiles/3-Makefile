@@ -7,10 +7,10 @@ RM = rm
 all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
 clean:
-	$(RM) *.c
+	$(RM) ${SCR}
 
 oclean: 
-	$(RM) *.o
+	$(RM) ${OBJ}
 
 fclean: 
 	find -type f -not \(-name '$(NAME)'\) -delete
