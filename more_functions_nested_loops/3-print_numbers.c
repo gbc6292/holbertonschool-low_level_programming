@@ -4,9 +4,9 @@
  * Return: Always end in 0
  *
  */
-void print_numbers(void);
+void print_numbers(void)
 {
-	int g
+	int g;
 
 	for (g = 0; g <= 9; g++)
 	{
