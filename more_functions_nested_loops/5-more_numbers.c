@@ -18,5 +18,7 @@ void more_numbers(void)
 	}
 	_putchar((o % 10) + '0');
 	}
+	_putchar('\n');
+	}
 
 }
