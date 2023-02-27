@@ -5,7 +5,7 @@
  * Return: No return
  *
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 	int a, b, c;
 
@@ -17,7 +17,7 @@ void print_triangle(int size);
 	{
 	for (a = 0; a < size; a++)
 	{
-	for (b = sixe - x; b > 1; y--)
+	for (b = size - a; b > 1; b--)
 	{
 	_putchar(32);
 	}
