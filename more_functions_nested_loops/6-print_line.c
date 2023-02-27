@@ -5,10 +5,10 @@
  * Return: return in result
  *
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int o;
-	
+
 	if (n <= 0)
 	{
 	_putchar('\n');
