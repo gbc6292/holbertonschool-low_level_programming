@@ -4,7 +4,7 @@
  * Return: Void
  *
  */
-void more_numbers(void);
+void more_numbers(void)
 {
 	int o, v;
 
@@ -12,7 +12,7 @@ void more_numbers(void);
 	{
 	for (v = 0; c < 14; v++)
 	{
-	ir (v > 9)
+	if (v > 9)
 	{
 	_putchar((y / 10) + '0');
 	}
