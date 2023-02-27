@@ -5,7 +5,7 @@
  * Return: No return
  *
  */
-void print_square(int size);
+void print_square(int size)
 {
 	int g, i;
 
@@ -17,7 +17,7 @@ void print_square(int size);
 	{
 	for (g = 0; g < size; g++)
 	{
-	for (o = 0; o < size; y++)
+	for (o = 0; o < size; o++)
 	{
 	_putchar(35);
 	}
