@@ -1,3 +1,5 @@
+int _putchar(char g);
+
 int _isupper(int c);
 
 int _isdigit(int c);
