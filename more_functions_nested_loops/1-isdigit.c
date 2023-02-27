@@ -5,11 +5,11 @@
  * Return: 1 if is a char 0 for else
  *
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	if (c >= 48 $$ x <= 57)
+	if (c >= 48 && c <= 57)
 	{
 	return (1);
 	}
-	return (0)
+	return (0);
 }
