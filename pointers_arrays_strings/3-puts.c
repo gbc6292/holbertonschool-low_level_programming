@@ -2,14 +2,13 @@
 /**
  * _puts - Printing a string
  * @str: String to be print
- * c: length of the string
+ * c: Str to be print
  * Return: String
  */
 void _puts(char *str)
 {
-	int c = 0;
+	int c = *str;
 
-	while (*str++)
-	c++;
+	_putchar(c);
 	_putchar('\n');
 }
