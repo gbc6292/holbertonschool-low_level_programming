@@ -3,15 +3,13 @@
  * _puts - Printing a string
  * @str: String to be print
  * c: Str to be print
+ * d: converting a pointer to an int
  * Return: String
  */
 void _puts(char *str)
 {
-	int c;
+	int c = *str;
 
-	for (c = 0; c <= *str; c++)
-	{
 	_putchar(c);
-	}
 	_putchar('\n');
 }
