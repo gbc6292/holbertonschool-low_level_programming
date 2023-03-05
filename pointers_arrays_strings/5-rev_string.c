@@ -7,9 +7,9 @@
  */
 void rev_string(char *s)
 {
-	int a = 0;
+	int a;
 
-	for (; s[a] != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
 	_putchar(s[a]);
 	}
