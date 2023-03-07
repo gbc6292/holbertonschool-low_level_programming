@@ -4,6 +4,7 @@
  * @s: The space of the memory when we work
  * @b: The content to be place
  * @n: The space of the memory where we work
+ * Return: Pointer s
  *
  */
 char *_memset(char *s, char b, unsigned int n)
