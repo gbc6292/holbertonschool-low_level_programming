@@ -4,7 +4,7 @@
  * _strstr - Function that locates a substring
  * @needle: The first string to find occurrancy
  * @haystack: The second string to find ocurrancy
- * Retunr: Pointer s with the occurrancy
+ * Return: Pointer s with the occurrancy
  *
  */
 char *_strstr(char *haystack, char *needle)
