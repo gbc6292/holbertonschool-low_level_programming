@@ -9,14 +9,27 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int in1, in2;
+	int in1, in2, num = 0;
 
-	for (in1 = 0; needle[in1] != '\0'; in1++)
+	if (needle[num] == '\0')
 	{
-		for (in2 = 0; haystack[in2] != '\0'; in2++)
+		return (haystack);
+	}
+	for (in1 = 0; haystack[in1] != '\0'; in1++)
+	{
+		if (haystack[in1] == needle[num])
 		{
-			if (haystack[in2] == needle[in1] && haystack[in2] + 1 == needle[in1] + 1)
-			return (haystack + in2);
+			for (in2 = 0; needle[in2] != '\0'; in2++)
+			{
+				if (haystack[in1 + in2] != needle[in2])
+				{
+					break;
+				}
+			}
+			if (needle[in2] == '\0')
+			{
+				return (haystack + in1);
+			}
 		}
 	}
 	return (NULL);
