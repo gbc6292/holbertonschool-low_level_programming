@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _strpbrk - Function that searches a string for any of a set of bytes
- * @s: String to be return after strpbrk work
+ * @s: String to be return after function do his work
  * @accept: String to compare with s
  * Return: Pointer s
  *
