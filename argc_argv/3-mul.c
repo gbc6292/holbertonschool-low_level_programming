@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  * main - Program that multiply two numbers
- * @argc - Counter
- * @argv - array that containt multiplyers
- * Return - 0
+ * @argc: Counter
+ * @argv: array that containt multiplyers
+ * Return: 0
  *
  */
 
