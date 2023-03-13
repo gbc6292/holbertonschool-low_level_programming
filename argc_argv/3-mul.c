@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Program that multiply two numbers
  * @argc - Counter
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("fault\n");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
