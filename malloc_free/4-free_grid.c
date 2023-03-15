@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * free_grid - Function that free the allocated memomry 
+ * free_grid - Function that free the allocated memomry
  * @grid: Allocated memory to be empty
  * @height: String allocated in the memory
  * Return: Void
