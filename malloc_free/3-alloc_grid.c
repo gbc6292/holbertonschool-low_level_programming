@@ -34,6 +34,7 @@ int **alloc_grid(int width, int height)
 		{
 			grid[y][x] = 0;
 		}
+		return (grid);
 	}
 	return (grid);
 	free(grid);
