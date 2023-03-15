@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * alloc_grid - Function that return a Pointer of a 2 dimensional arrays
- * @widht: String in the X dimension
+ * @width: String in the X dimension
  * @height: String in the Y dimension
  * Return: Pointer with 2 dimensional arrays or NULL if failure
  *
@@ -36,4 +36,5 @@ int **alloc_grid(int width, int height)
 		}
 	}
 	return (grid);
+	free (grid);
 }
