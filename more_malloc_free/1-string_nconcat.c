@@ -11,20 +11,18 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int l1, l2, len, idx;
+	unsigned int l1, l2, idx;
 	char *a;
 
 	l1 = strlen(s1);
 	l2 = strlen(s2);
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL)
 		s1 = "";
-	if (n >= l2)
-		len = l1 + l2;
-	else
-		len = l1 + n;
+	if (s2 == NULL)
+		s1 = "";
 
-	a = malloc(len + 1);
+	a = malloc(l1 + n + 1);
 
 	if (a == NULL)
 		return (NULL);
