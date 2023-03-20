@@ -4,7 +4,7 @@
 /**
  * array_range - Function that creates an array of integers
  * @min: small intergers
- * @maz: bigger integers
+ * @max: bigger integers
  * Return: A pointer to the newly created array
  *
  */
@@ -19,7 +19,7 @@ int *array_range(int min, int max)
 		return (NULL);
 
 
-	for (i = 0; i <= max; i++)
+	for (i = 0; i < max; i++)
 	{
 		ptr[i] = min++;
 	}
