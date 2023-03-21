@@ -1,12 +1,14 @@
 #include <stdio.h>
+/**
+ * main - Function that print the name of the compile file
+ * Return: void
+ * */
 
-char main(void)
+
+int main(void)
 {
-	char a;
-
-	a = _BASE_FILE_;
-	_putchar(a);
-	_putchar('\n');
+	printf("%s\n", _FILE_);
+	return (0);
 }
 
 
