@@ -1,12 +1,12 @@
 #include <stdarg.h>
-#include "variadic_functions.h"
-#include <stddef.h>
+#include "variatic_functions.h"
+#include <stdef.h>
 /**
- *sum_them_all - function that sums all argument
- *@n: quantity of arguments
- *Return: A int that print the result of the sum
+ * sum_them_all - Function that sum all arguments
+ * @n: The quantity of arguments in the list
+ * Return: An int that point to the result of the sum
+ *
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ptr;
