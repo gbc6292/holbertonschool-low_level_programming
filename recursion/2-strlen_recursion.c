@@ -5,16 +5,12 @@
  * Return: Length of the string
  *
  */
-int len = 0;
-
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		return;
+		return (0);
 	}
-	s++;
-	len++;
-	_strlen_recursion(s);
-	return (len);
+	else
+		return ((_strlen_recursion(s + 1) + 1));
 }
