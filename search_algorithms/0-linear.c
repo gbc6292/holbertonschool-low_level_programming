@@ -6,7 +6,8 @@
  * @array: A pointer to the first element of the array to search in
  * @size: Amount of elements in the array
  * @value: Value to search in
- * Retrun: The first index where value is located
+ * Retrun: The first index where value is located or -1 if value is not 
+ * located
  */
 
 int linear_search(int *array, size_t size, int value)
@@ -20,7 +21,8 @@ int linear_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%ld] = [%d]\n", idx, array[idx]);
 		if (array[idx] == value)
-			return(idx);
+			return (idx);
+
 	}
-	return(idx);
+	return (-1);
 }
